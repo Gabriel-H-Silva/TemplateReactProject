@@ -24,3 +24,7 @@
     padding: 10px;
     cursor: move;
 }
+
+display: flex;
+align-items: center;
+justify-content: space-between;
