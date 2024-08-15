@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navigate, useLocation } from 'react-router-dom';
-import { useScreenAndAuth } from './Context/screenContext'; // Ajuste o caminho conforme necessário
+import { useScreenAndAuth } from './Context/screenContext'; 
 
 const AuthGuard = () => {
   const { authenticated } = useScreenAndAuth();

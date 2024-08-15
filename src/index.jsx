@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./global.css"; // Garanta que este arquivo contenha seus estilos globais, se houver.
+import "./global.css";
 import Routers from "./routers";
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from './theme';

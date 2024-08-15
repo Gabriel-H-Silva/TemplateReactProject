@@ -21,7 +21,6 @@ export const theme = createTheme({
     },
     divider: 'rgba(249,244,244,0.12)',
     background: {
-      default: '#111111',
       paper: '#212121',
     },
   },

@@ -1,27 +1,26 @@
 .render {
-    background-color: #4f4f4f;
-    border-radius: 5px;
+    background-image: url("../../img/background.jpg");
+    height: 100vh;
+    width: '100vw';
+    position: 'relative';
+    background-size: contain;
 }
 
-.navigation_tab {
-    background-color: #2f2f2f;
+.downBar{
+    position: absolute;
+    bottom: 0;
+    height: 7%;
+    width: 100%;
+    background-color: #8f8f8fe3;
 }
-
-.btn_end {
-    display: flex;
-    align-items: flex-end;
+.frame{
+    background-color: aliceblue;
+    height: 100%;
+    color: black;
 }
-
-.transition-menu-lateral {
-    transition: 0.26s;
-}
-
-.fixed_bottom {
-    position: fixed !important;
-    z-index: 1100 !important;
-    bottom: 0 !important;
-    left: auto !important;
-    right: 0 !important;
-    margin: 20px !important;
-    color: white !important;
+  
+.frameTop{
+    background-color: #2f89a1;
+    padding: 10px;
+    cursor: move;
 }
