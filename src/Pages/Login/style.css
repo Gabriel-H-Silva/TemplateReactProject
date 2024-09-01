@@ -4,3 +4,14 @@
     background-color: #121212;
     border-radius: 5px;
 }
+.teste{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.botoesAlinhamento{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
